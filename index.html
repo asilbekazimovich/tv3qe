@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8" />
+  <title>CTF Slider Savollar</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <h1>10 ta CTF Savol</h1>
+
+  <div class="card">
+    <div class="question-title" id="questionTitle">Savol 1: flag1 ni kiriting</div>
+    <input type="text" id="answerInput" />
+    <div>
+      <button onclick="checkAnswer()">Tekshir</button>
+    </div>
+    <div id="result" class="result"></div>
+
+    <div class="nav-buttons">
+      <button onclick="prevQuestion()">&lt;</button>
+      <button onclick="nextQuestion()">&gt;</button>
+    </div>
+
+    <div class="progress" id="progress">Savol 1 / 10</div>
+  </div>
+  <script src="./script.js"></script>
+</body>
+</html>
